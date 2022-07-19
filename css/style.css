@@ -1,0 +1,87 @@
+/* Fonts */
+@font-face {
+  font-family: title;
+  src: url(../assets/fonts/Teko-Medium.ttf);
+}
+
+@font-face {
+  font-family: subLink;
+  src: url(../assets/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: inputTextLabel;
+  src: url(../assets/fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: dividerFont;
+  src: url(../assets/fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: buttonFont;
+  src: url(../assets/fonts/Raleway-Bold.ttf);
+}
+/* Nav */
+.nav-title {
+  font-family: title;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-family: subLink;
+  font-size: 1rem;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+/* Column 1 */
+.glassCard {
+  background: rgba(0, 0, 0, 0.055);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.inputText-contraints {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.inputText-contraints-top {
+  padding-top: 2rem;
+}
+
+.inputText-contraints-bottom {
+  padding-bottom: 2rem;
+}
+
+label {
+  font-family: inputTextLabel;
+}
+
+.button-contraints {
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.button-style {
+  font-family: buttonFont;
+  font-size: 0.9rem;
+}
+
+/* Column 2 */
+.textArea-style {
+  background-color: rgba(0, 0, 0, 0.103);
+}
+
+/* common */
+.divider-style {
+  font-family: dividerFont;
+  /* margin-bottom: 2rem; */
+  /* display: inline-block; */
+}

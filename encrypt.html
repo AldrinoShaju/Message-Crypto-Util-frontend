@@ -4,9 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MCU-Encrypt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand nav-title" href="#">Message Cryptography Util</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Encrypt Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Decrypt Data</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <div>
+          <h5 class="divider-style">Encrypt Request</h2>
+            <hr>
+      </div>
+
+      <div class="row">
+        <div class="col">
+            <div class="glassCard">
+                <div class="inputText-contraints inputText-contraints-top">
+                    <label for="basic-url" class="form-label">Service Name</label>
+<div class="input-group mb-3">
+    <select class="form-select" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+</div>
+                </div>
+                <div class="inputText-contraints">
+                    <label for="basic-url" class="form-label">Channel</label>
+<div class="input-group mb-3">
+    <select class="form-select" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+</div>
+                </div>
+                <div class="inputText-contraints">
+                    <label for="basic-url" class="form-label">Environment</label>
+<div class="input-group mb-3">
+    <select class="form-select" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+</div>
+                </div>
+                <div class="inputText-contraints">
+                    <label for="basic-url" class="form-label">Service URL **</label>
+<div class="input-group">
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="/servicename/v1">
+      
+</div>
+<p>** Adding value here will overrider internal url generation</p>
+                </div>
+                <div class="inputText-contraints inputText-contraints-bottom">
+                    <label for="basic-url" class="form-label">Service endpoint URL</label>
+<div class="input-group">
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="http://localhost:8080/sample">
+</div>
+                </div>
+                <div class="d-grid gap-2 button-contraints">
+                    <button class="btn btn-primary mb-2 button-style" type="button">ENCRYPT AND SEND REQUEST</button>
+                    <button class="btn btn-success button-style" type="button">ENCRYPT REQUEST</button>
+                </div>
+
+                <div class="inputText-contraints inputText-contraints-top">
+                    <label for="basic-url" class="form-label">Generated HMAC</label>
+<div class="input-group">
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" disabled>
+    <span class="input-group-text p-0" id="basic-addon2"><button class="btn btn-dark" type="button"><img src="assets/icons/clipboard2-fill.svg" alt="copy"></button></span>
+</div>
+                </div>
+
+                <div class="inputText-contraints inputText-contraints-bottom">
+                    <label for="basic-url" class="form-label">Encrypted Request</label>
+<div class="input-group">
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" disabled>
+    <span class="input-group-text p-0" id="basic-addon2"><button class="btn btn-dark" type="button"><img src="assets/icons/clipboard2-fill.svg" alt="copy"></button></span>
+</div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col">
+            <div class="input-group">
+                <textarea class="form-control textArea-style" aria-label="With textarea" placeholder="Paste Request Body...."></textarea>
+              </div>
+        </div>
+      </div>
+      
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
