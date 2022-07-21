@@ -36,6 +36,7 @@
 
 .navbar {
   background-color: white !important;
+  padding-top: 1rem;
 }
 
 /* Column 1 */
@@ -45,6 +46,10 @@
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
   border-radius: 10px;
+  margin-left: 4rem;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  margin-right: 0rem;
 }
 
 .inputText-contraints {
@@ -77,10 +82,28 @@ label {
 /* Column 2 */
 .textArea-style {
   background-color: rgba(0, 0, 0, 0.103);
+  margin-right: 4rem;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  margin-left: 0rem;
+}
+
+.textArea-button1-placement {
+  right: 6px;
+  top: 5px;
+}
+.textArea-button2-placement {
+  right: 6px;
+  top: 45px;
+}
+.textArea-button3-placement {
+  right: 6px;
+  top: 85px;
 }
 
 /* common */
 .divider-style {
+  margin-top: 1rem;
   font-family: dividerFont;
   /* margin-bottom: 2rem; */
   /* display: inline-block; */
